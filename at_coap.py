@@ -17,7 +17,7 @@ RECV_CMD = '+NNMI:'
 class AT_CoAP(object):
 	def __init__(self, uartid, rxpin, txpin, callback):
 		"""
-		uartid - the id of uart which only can be 1 or 2 on ESP32 / 0 on ESP8266
+		uartid - the id of uart which only can be 1 or 2 on esp32 / 0 on esp8266
 		rxpin - the GPIO that used as uart rx
 		txpin - the GPIO that used as uart tx
 		callback - the function called (with an arg: rev_msg) when received messages.
